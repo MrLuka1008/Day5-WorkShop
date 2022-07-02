@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url(../img/img.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  background-attachment: fixed; /*დაფიქსული ბექგრაუნდი*/
+}
+
+ul > :nth-child(3) {
+  background-color: red;
+}
+
+.big-div {
+  width: 100px;
+}
+
+.test {
+  text-indent: -999999px;
+}
